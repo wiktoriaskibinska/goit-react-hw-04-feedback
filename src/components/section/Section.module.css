@@ -1,0 +1,29 @@
+.section {
+  margin: 20px;
+  padding: 20px;
+  background: url(/src/coffeebg.png),
+    linear-gradient(
+      to bottom,
+      rgba(239, 141, 156, 0.52),
+      rgba(255, 195, 158, 0.73)
+    );
+  border-radius: 30px;
+  box-shadow: 0 30px 50px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-items: center;
+  background-repeat: repeat;
+  background-size: 100%;
+  background-blend-mode: lighten;
+}
+.sectionTittle {
+  color: #ffffff;
+  text-align: center;
+}
+.section h2,
+p {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(255, 192, 203, 0.862);
+}
